@@ -1,1 +1,3 @@
-html,body{font-size:16px;background:#4c4158;height:100%;width:100%}html,body,section,canvas{display:block;margin:0;padding:0}section{overflow:hidden}.h-no-display{display:none}#js-stage{margin:2em auto;height:288px;width:512px;background:rgba(0,0,0,0.15)}
+html,body{font-family:"Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;font-size:16px;background:#eaeaea;line-height:1.5em;color:#b5b5b5;height:100%;width:100%}html,body,section,canvas{display:block;margin:0;padding:0}section{overflow:hidden;width:512px;margin:0 auto}.o-message{width:80%;margin:0 auto;text-align:center}.h-no-display{display:none}#js-stage{margin-top:2em;height:288px;width:512px;margin-bottom:1.5em;background:white}
+
+/*# sourceMappingURL=maps/style.css.map */
