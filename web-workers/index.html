@@ -8,5 +8,19 @@
 </head>
 <body>
     <h1>Web workers test</h1>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker
+                    .register('serviceWorker.js')
+                    .then(function (registration) {
+                        console.log('Registrated:', registration)
+                    })
+                    .catch(function (err) {
+                        console.log('Failed to register:', err)
+                    })
+            })
+        }
+    </script>
 </body>
 </html>
