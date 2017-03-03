@@ -13,7 +13,7 @@ self.addEventListener('install', function (e) {
         caches
             .open(CACHE_NAME)
             .then(function (cache) {
-                console.log('Opened cached')
+                console.log('Opened cached', cache)
                 return cache.addAll(ulrArr)
             })
     )
