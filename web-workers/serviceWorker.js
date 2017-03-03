@@ -1,5 +1,6 @@
 var CACHE_NAME = 'service-worker-cache-v1'
 var ulrArr = [
+    '/',
     'css/main.css',
     'assets/webmvp8_512kb.mp4',
     'assets/302H.jpg',
