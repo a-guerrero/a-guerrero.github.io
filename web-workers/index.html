@@ -9,11 +9,17 @@
 </head>
 <body>
     <h1>Web workers test</h1>
-    <img src="assets/302H.jpg" alt="302H">
-    <img src="assets/305H.jpg" alt="305H">
-    <video width="480" controls>
-        <source src="assets/webmvp8_512kb.mp4" type="video/mp4">
-    </video>
+    <div>
+        <img src="assets/302H.jpg" alt="302H">
+    </div>
+    <div>
+        <img src="assets/305H.jpg" alt="305H">
+    </div>
+    <div>
+        <video width="480" controls>
+            <source src="assets/webmvp8_512kb.mp4" type="video/mp4">
+        </video>
+    </div>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
