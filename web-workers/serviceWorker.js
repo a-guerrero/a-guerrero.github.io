@@ -1,10 +1,10 @@
 var CACHE_NAME = 'service-worker-cache-v1'
 var ulrArr = [
-    '/',
-    'css/main.css',
-    'assets/webmvp8_512kb.mp4',
-    'assets/302H.jpg',
-    'assets/305H.jpg'
+    'https://a-guerrero.github.io/web-workers/index.html',
+    'https://a-guerrero.github.io/web-workers/css/main.css',
+    'https://a-guerrero.github.io/web-workers/assets/webmvp8_512kb.mp4',
+    'https://a-guerrero.github.io/web-workers/assets/302H.jpg',
+    'https://a-guerrero.github.io/web-workers/assets/305H.jpg'
 ]
 
 console.log(ulrArr)
