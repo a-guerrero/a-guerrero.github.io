@@ -6,6 +6,8 @@ var ulrArr = [
     'assets/305H.jpg'
 ]
 
+console.log(ulrArr)
+
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches
