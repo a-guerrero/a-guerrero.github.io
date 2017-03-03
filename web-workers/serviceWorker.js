@@ -1,1 +1,3 @@
-console.log('service worker')
+self.addEventListener('install', function (e) {
+    console.log(e)
+})
